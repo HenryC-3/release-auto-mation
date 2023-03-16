@@ -46,8 +46,8 @@ jobs:
               run: pnpm install
 
             # build
-            - name: Build
-              run: npm run build
+            # - name: Build
+            #   run: npm run build
 
             # # generate changelog https://github.com/marketplace/actions/release-changelog-builder
             # - name: Build Changelog
