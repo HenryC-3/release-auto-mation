@@ -60,4 +60,5 @@ jobs:
             - uses: ncipollo/release-action@v1
               with:
                   artifacts: "README.md"
-                  body: ${{steps.github_release.outputs.changelog}}
+                  # body: ${{steps.github_release.outputs.changelog}}
+                  bodyFile: "CHANGELOG.md"
